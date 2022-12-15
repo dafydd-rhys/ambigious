@@ -1,0 +1,26 @@
+#backgroundAnchorPane {
+    -fx-background-color: -background-color-dark;
+}
+.combo-box {
+    -fx-text-fill: white;
+}
+.combo-box .list-cell {
+    -fx-background-color: -background-color-dark;
+}
+.table-view .column-header {
+    -fx-background-color: -background-color-dark;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10 px;
+}
+.table-row-cell: odd{
+    -fx-background-color: -background-color-dark;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell: even{
+    -fx-background-color: -background-color-dark;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}

@@ -1,0 +1,5 @@
+language:en-GB
+fullscreen:true
+themedFX:true
+musicVolume:3.75
+effectsVolume:58.333332

@@ -1,0 +1,31 @@
+#optionsBackgroundPane {
+    -fx-background-color: -background-color-dark;
+}
+#titleText {
+    -fx-text-fill: -important-text-color;
+    -fx-font-size: 30px;
+}
+#currentProfileLabel {
+    -fx-font-size: 18px;
+}
+#descriptionLabel {
+    -fx-font-size: 12px;
+}
+#motdPane {
+    -fx-background-color: rgba(0,0,0,0.7);
+}
+#motd {
+    -fx-font-size: 16px;
+}
+#motdText {
+    -fx-text-fill: white;
+}
+.combo-box {
+    -fx-text-fill: white;
+}
+.combo-box .list-cell {
+    -fx-background-color: -background-color-dark;
+}
+.table-view .column-header {
+    -fx-background-color: -background-color-dark;
+}

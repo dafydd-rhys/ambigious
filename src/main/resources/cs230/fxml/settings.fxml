@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="backgroundAnchorPane" prefHeight="300.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs230.viewController.SettingsController">
+   <children>
+      <Button fx:id="saveButton" alignment="CENTER" contentDisplay="RIGHT" defaultButton="true" layoutX="285.0" layoutY="256.0" minWidth="170.0" mnemonicParsing="true" onAction="#onSaveSettingsButtonClick" text="%saveSettings" />
+      <CheckBox fx:id="playInFullscreenCheckBox" layoutX="13.0" layoutY="114.0" mnemonicParsing="true" text="%playInFullscreen" />
+      <ComboBox fx:id="selectedLanguage" layoutX="259.0" layoutY="66.0" minWidth="195.0" onAction="#onSelectLanguage" prefWidth="150.0" promptText="%selectLanguage" />
+      <Label layoutX="10.0" layoutY="71.0" mnemonicParsing="true" text="%language" />
+      <Label layoutX="15.0" layoutY="201.0" text="%effects" textAlignment="RIGHT" />
+      <Label layoutX="15.0" layoutY="157.0" text="%music" />
+      <Text fill="#bfbfbf" layoutX="15.0" layoutY="42.0" stroke="BLACK" strokeType="OUTSIDE" text="%settings" wrappingWidth="220.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Slider fx:id="musicSlider" blockIncrement="5.0" layoutX="200.0" layoutY="160.0" prefHeight="14.0" prefWidth="254.0" showTickLabels="true" value="50.0" />
+      <Slider fx:id="effectSlider" blockIncrement="5.0" layoutX="200.0" layoutY="204.0" prefHeight="14.0" prefWidth="254.0" showTickLabels="true" value="50.0" />
+      <CheckBox fx:id="themedFXCheckBox" layoutX="258.0" layoutY="114.0" mnemonicParsing="true" text="%themedFX" />
+   </children>
+
+   <stylesheets>
+      <URL value="@../css/application.css" />
+      <URL value="@../css/settings.css" />
+   </stylesheets>
+</AnchorPane>

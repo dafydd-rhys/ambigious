@@ -1,0 +1,8 @@
+Winter
+identity-2.txt
+false, false, false, false, false, false, false, false
+PL:12,01;RIGHT 
+1
+83
+1
+I1:13,04 E2:09,05;DOWN E2:18,03;DOWN E2:01,00;DOWN L1:14,00 L1:16,03 L1:04,08 L3:19,07 L3:03,06 L4:11,06 GL:03,03 GG:14,05 NO:12,04 

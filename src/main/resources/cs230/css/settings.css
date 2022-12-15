@@ -1,0 +1,7 @@
+#backgroundAnchorPane {
+    -fx-background-color: -background-color-dark;
+}
+.combo-box .list-cell 
+{
+    -fx-text-fill: black;
+}

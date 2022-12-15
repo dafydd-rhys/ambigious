@@ -1,0 +1,6 @@
+#rootAnchorPane {
+    -fx-background-color: -background-color-dark;
+}
+.label {
+    -fx-font-size: 20px;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="backgroundAnchorPane" prefHeight="370.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs230.viewController.ScoreboardController">
+   <children>
+      <TableView id="scores" fx:id="scoreboard" layoutX="34.0" layoutY="57.0" prefHeight="293.0" prefWidth="434.0" style="-fx-background-color: -background-color-dark;">
+         <columns>
+            <TableColumn fx:id="level" prefWidth="108.0" resizable="false" text="%level" />
+            <TableColumn fx:id="rank" prefWidth="71.0" resizable="false" text="%rank" />
+            <TableColumn fx:id="name" prefWidth="163.0" resizable="false" text="%name" />
+            <TableColumn fx:id="score" prefWidth="89.0" resizable="false" text="%score" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="levelSelector" layoutX="34.0" layoutY="20.0" prefWidth="150.0" promptText="%levelSelect" style="-fx-background-color: -background-color-dark;" stylesheets="@../css/scoreboard.css" />
+   </children>
+   <stylesheets>
+      <URL value="@../css/application.css" />
+      <URL value="@../css/scoreboard.css" />
+   </stylesheets>
+</AnchorPane>

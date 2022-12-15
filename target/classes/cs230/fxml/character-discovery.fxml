@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="backgroundAnchorPane" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs230.viewController.CharacterDiscoveryController">
+   <children>
+      <Button fx:id="complete" cancelButton="true" layoutX="138.0" layoutY="354.0" minWidth="105.0" mnemonicParsing="true" prefHeight="35.0" prefWidth="124.0" text="%completeGame" />
+      <Text fill="#bfbfbf" layoutX="14.0" layoutY="38.0" stroke="BLACK" strokeType="OUTSIDE" text="%characterDiscovery" textAlignment="CENTER" wrappingWidth="372.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="124.0" fitWidth="124.0" layoutX="138.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../images/player.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="197.0" prefHeight="26.0" prefWidth="105.0" text="%nameL" />
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="227.0" prefHeight="26.0" prefWidth="105.0" text="%descL" />
+      <Label fx:id="name" layoutX="124.0" layoutY="197.0" prefHeight="26.0" prefWidth="246.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="257.0" prefHeight="26.0" prefWidth="105.0" text="%genderL" />
+      <Label fx:id="gender" layoutX="124.0" layoutY="257.0" prefHeight="26.0" prefWidth="58.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="185.0" layoutY="257.0" prefHeight="26.0" prefWidth="88.0" text="%dobL" />
+      <Label fx:id="dob" layoutX="282.0" layoutY="257.0" prefHeight="26.0" prefWidth="88.0" />
+      <Label fx:id="desc" layoutX="124.0" layoutY="227.0" prefHeight="26.0" prefWidth="246.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="287.0" prefHeight="26.0" prefWidth="105.0" text="%occupationL" />
+      <Label fx:id="occupation" layoutX="124.0" layoutY="287.0" prefHeight="26.0" prefWidth="246.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="317.0" prefHeight="26.0" prefWidth="105.0" text="%nationalityL" />
+      <Label fx:id="nationality" layoutX="124.0" layoutY="317.0" prefHeight="26.0" prefWidth="246.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="167.0" prefHeight="26.0" prefWidth="105.0" text="%injuryL" />
+      <Label fx:id="injury" layoutX="124.0" layoutY="167.0" prefHeight="26.0" prefWidth="246.0" />
+   </children>
+   <stylesheets>
+      <URL value="@../css/application.css" />
+      <URL value="@../css/settings.css" />
+   </stylesheets>
+</AnchorPane>

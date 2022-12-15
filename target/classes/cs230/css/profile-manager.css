@@ -1,0 +1,12 @@
+#backgroundAnchorPane {
+    -fx-background-color: -background-color-dark;
+}
+.combo-box {
+    -fx-text-fill: white;
+}
+.combo-box .list-cell {
+    -fx-background-color: -background-color-dark;
+}
+.table-view .column-header {
+    -fx-background-color: -background-color-dark;
+}

@@ -1,0 +1,13 @@
+module:cs230
+cs230
+cs230.external
+cs230.model
+cs230.model.board
+cs230.model.entity
+cs230.model.entity.enemies
+cs230.model.entity.enums
+cs230.model.entity.items
+cs230.model.entity.resources
+cs230.profiles
+cs230.scoreboard
+cs230.viewController

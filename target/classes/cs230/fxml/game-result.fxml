@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="backgroundAnchorPane" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs230.viewController.GameResultController">
+   <children>
+      <Button fx:id="exit" cancelButton="true" layoutX="125.0" layoutY="251.0" minWidth="150.0" mnemonicParsing="true" prefHeight="35.0" prefWidth="150.0" text="%exit" />
+      <Button fx:id="cont" defaultButton="true" disable="true" layoutX="125.0" layoutY="113.0" minWidth="150.0" mnemonicParsing="true" prefHeight="35.0" prefWidth="150.0" text="%continue" />
+      <Text fx:id="gameResult" fill="#bfbfbf" layoutX="90.0" layoutY="33.0" stroke="BLACK" strokeType="OUTSIDE" text="%gameOver" textAlignment="CENTER" wrappingWidth="220.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="restart" defaultButton="true" layoutX="125.0" layoutY="159.0" minWidth="150.0" mnemonicParsing="true" prefHeight="35.0" prefWidth="150.0" text="%restart" />
+      <Button fx:id="mainMenu" cancelButton="true" layoutX="125.0" layoutY="205.0" minWidth="150.0" mnemonicParsing="true" prefHeight="35.0" prefWidth="150.0" text="%mainMenu" />
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="170.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+   <stylesheets>
+      <URL value="@../css/application.css" />
+      <URL value="@../css/settings.css" />
+   </stylesheets>
+</AnchorPane>

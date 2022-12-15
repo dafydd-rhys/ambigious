@@ -1,0 +1,27 @@
+#baseAnchorPane {
+    -fx-background-color: -background-color-dark;
+}
+#titleText {
+    -fx-text-fill: -important-text-color;
+    -fx-font-size: 20px;
+}
+#mainText1 {
+    -fx-text-fill: -default-text-color;
+    -fx-font-size: 14px;
+}
+#mainText2 {
+    -fx-text-fill: -default-text-color;
+    -fx-font-size: 14px;
+}
+#mainText3 {
+    -fx-text-fill: -default-text-color;
+    -fx-font-size: 14px;
+}
+#mainText4 {
+    -fx-text-fill: -default-text-color;
+    -fx-font-size: 14px;
+}
+#mainText5 {
+    -fx-text-fill: -default-text-color;
+    -fx-font-size: 14px;
+}

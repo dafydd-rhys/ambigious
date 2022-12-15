@@ -1,0 +1,8 @@
+MixedThemes
+identity-2.txt
+false, false, false, false, false, false, false, false
+PL:00,04;LEFT 
+1
+58
+0
+E1:16,03;RIGHT-COL1 E2:09,07;UP E3:08,03;DOWN L1:01,01 L2:18,01 L3:01,08 L4:18,08 I1:16,04 I2:09,03 I3:09,06;4 RL:08,04 GL:03,04 BL:09,04 RG:06,04 RG:12,04 GG:17,08 GG:02,01 BG:18,04 NO:09,05 
