@@ -9,12 +9,12 @@ If you find any issues please post them in the issues section, also star this re
 
 The features of this program:
 
-* 
+* 1
   * 
   * 
   * 
  
-* 
+* 2
   * 
   * 
 
